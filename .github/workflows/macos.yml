@@ -2,9 +2,9 @@ name: Example application bundle for MacOS
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, macos, msgilligan-macos ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, macos, msgilligan-macos ]
 
 jobs:
   build:
